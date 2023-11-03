@@ -1,1 +1,104 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Burgers</title>   <!--det som står på fliken-->
+       <meta charset="utf-8"/>
+   </head>
+   <body>  
+        <header> 
+            <h1> Brilliant Burgers </h1>
+        </header>
+        <main>
+            <section> 
+                <h2> Our Burgers </h2>
+                <div style="display: inline-block;">
+                    <p> Below you can see our selection of brilliant burgers</p>
+                    <h3> Black Burger </h3>
+                    <img src="img/Black Burger.jpeg" style="width: 200px;" alt="Black Burger" title="Peppery ground beef burger">
+                    <ul>
+                        <li>Ground beef aka dead cow</li>
+                        <li>Severely burnt bread</li>
+                        <li> 1/2 kg pepper</li>
+                        <li>Free from: lactose, egg, enjoyment</li>
+                    </ul>
+                </div>
+                <div style="display: inline-block;">
+                    <h3> Green Burger</h3>
+                    <img src="img/Green burger.jpeg" style="width: 200px;" alt="Green Burger" title="Plantbased burger">
+                    <ul>
+                        <li>chickpea patty, dryer than our sense of humor</li>
+                        <li>Spinatch bread</li>
+                        <li>54 pickles</li>
+                        <li>Free from: gluten, meat, moisture</li>
+                    </ul>
+                </div>
+                <div style="display: inline-block;">
+                    <h3> White burger </h3>
+                    <img src="img/White burger.jpeg" style="width: 200px;" alt="White Burger" title="Ginger chicken burger">
+                    <ul>
+                        <li>Uncooked chicken</li>
+                        <li>Unbaked bread</li>
+                        <li>Ginger (not the human kind)</li>
+                        <li>Free from: nuts, fish, humans</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="contact">
+                <form>
+                    <h3>Delivery form</h3>
+                    <p>Fill out the for below to provide us with the information we need in order to deliver your order</p>
+                    <p>
+                        <label for="fullname">First name</label><br>
+                        <input type="text" id="fullname" name="fn" required="required" placeholder="First- and Last name">
+                    </p>
+                    <p>
+                        <label for="email"> E-mail </label><br>
+                        <input type="email" id="email" name="em" required="required" placeholder="E-mail address">
+                    </p>
+                    <p>
+                        <label for="street"> Street </label><br>
+                        <input type="text" id="street" name="st" placeholder="Street name">
+                    </p>
+                    <p>
+                        <label for="house"> House </label><br>
+                        <input type="number" id="house" name="h" placeholder="House number">
+                    </p>
+                    <h3>Gender</h3>
+                    <label> 
+                        <input type="radio" name="gender" value="female" checked="prechecked"> Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="male"> Male
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="nonbinary"> Non binary
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="dontwannasay"> Don't wanna say
+                    </label>
+                    <h3>Payment method</h3>
+                    <p>
+                        <label for="paymentmethod">Payment method</label><be>
+                        <select id="recipient" name="rcp">
+                            <option>Swish</option>
+                            <option>Klarna</option>
+                            <option>Debit Card</option>
+                            <option>Credit Card</option>
+                        </select>
+                    </p>
+                </form>
+            </section>
+            <button type="submit">
+                <img src="img/fagel.jpeg" style="width: 30px;">
+                Send in your form 
+              </button>
+        </main>
+        <hr> 
+        <footer>
+            <p> &copy; 2023 Emma Göransson</p>
+            <p> Mail: brilliant@burger.com </p>
+            <p> Phone +46712345678</p>
+            <p> Adress: Brilliant Boulevard 101 A</p>
+        </footer>
+   </body>
+</html>
