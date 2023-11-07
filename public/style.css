@@ -1,0 +1,82 @@
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+
+/* Comment*/
+
+body {
+    background-color: lightpink;
+    font-family: 'Times New Roman', Times, serif;
+    color:seagreen; 
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    padding: 20px; 
+ }
+
+ .contents {
+    color:pink
+ }
+
+ #allergens{
+    text-transform: uppercase; 
+ }
+
+ #contact{
+    background-color: black;
+    color: white;
+    border: 5px dashed powderblue;
+    padding: 50px;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+ button:hover {
+    cursor: pointer; 
+    background-color: green;
+ }
+
+ #menu{ 
+    background-color:beige; 
+    border: 5px dotted powderblue ; 
+ }
+
+header{
+    border: 10px double white ;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    padding: 50px;
+    text-align: center;
+    position:relative; 
+    overflow:hidden; 
+ }
+
+#headerimg{
+    opacity: 0.6;    
+    position: absolute; 
+    width: 100%;
+    height :100%; 
+    top: 0; 
+    left: 0;
+    z-index: -1;
+}
+
+ button{
+    margin: 20px;
+ }
+
+ div{
+    margin-left: 10px; 
+    margin-right: 10px;
+ }
+
+ .wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px;
+}
+
