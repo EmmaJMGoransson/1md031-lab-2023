@@ -1,8 +1,17 @@
 <template>
     <div id="orders">
       <div id="orderList">
-        <div v-for="(order, key) in orders" v-bind:key="'order'+key">
-          #{{ key }}: {{ order.orderItems.join(", ") }}
+        <div v-for="(order, key) in orders" v-bind:key="'order'+key"> 
+          #{{ key }}:
+          <ul>
+            <li v-if="order.orderItems['Black Burger']"> Black burger {{order.orderItems["Black Burger"]}} </li>
+            <li v-if="order.orderItems['Green Burger']"> Green Burger {{order.orderItems["Green Burger"]}}</li>
+            <li v-if="order.orderItems['White Burger']"> White Burger {{order.orderItems["White Burger"]}}</li>
+          </ul>
+          {{order.custumerInfo["fn"]}} {{ order.custumerInfo["ln"] }}  
+          <br>
+          ({{order.custumerInfo["em"]}},{{order.custumerInfo["gender"]}},{{ order.custumerInfo["rcp"] }})
+          <hr> 
         </div>
         <button v-on:click="clearQueue">Clear Queue</button>
       </div>
@@ -44,6 +53,7 @@
     color:black;
     background: rgba(255,255,255, 0.5);
     padding: 1em;
+   
   }
   #dots {
     position: relative;

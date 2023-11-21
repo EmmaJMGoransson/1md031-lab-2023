@@ -1,0 +1,28 @@
+
+
+[
+    {
+        "name": "Black Burger",
+        "contents1": "Ground beef aka dead cow",
+        "contents2": "Severely burnt bread",
+        "contents3": "1/2 kg pepper",
+        "url": "img/Black Burger.jpeg",
+        "allergens": "lactose, disapointment"
+    },
+    {
+        "name": "Green Burger",
+        "contents1": "chickpea patty,dryer than our sense of humor", 
+        "contents2": "Spinatch bread", 
+        "contents3": "54 pickles", 
+        "url": "img/Green burger.jpeg", 
+        "allergens": "gluten"
+    },
+    {
+        "name": "White Burger", 
+        "contents1": "Uncooked chicken", 
+        "contents2": "Unbaked bread", 
+        "contents3": "Ginger (not the human kind)",
+         "url": "img/White burger.jpeg", 
+         "allergens": "salmonella"
+        }
+]
